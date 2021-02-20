@@ -67,15 +67,15 @@ const finishSpin = () => {
     const uniqueValues = new Set([reel1.label, reel2.label, reel3.label]).size;
     if (uniqueValues === 1) {
         // All 3 values are the same
-        result.label = '💰 Jackpot!';
+        result.label = '💰 Ты пидор';
         result.textColor = '#FDFF00';
     } else if (uniqueValues === 2) {
         // 2 values are the same
-        result.label = '😍 Winner!';
+        result.label = '😍 Иди на хуй макс!';
         result.textColor = '#FDFF00';
     } else {
         // No values are the same
-        result.label = '🙁 Spin Again';
+        result.label = '🙁 от тебя гавной воняет, не звони сюда больше';
         result.textColor = null;
     }
     spinning = false;
